@@ -1,0 +1,4 @@
+{
+  "consumeMode": "pull",
+  "persistRawPayloads": true
+}
