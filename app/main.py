@@ -21,3 +21,4 @@ def ingest(event: dict):
 @app.get('/events')
 def list_events():
     return {'events': EVENTS}
+# autofix smoke 2026-04-24T14:54:31+00:00Z
