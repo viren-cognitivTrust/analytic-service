@@ -21,3 +21,7 @@ def ingest(event: dict):
 @app.get('/events')
 def list_events():
     return {'events': EVENTS}
+
+@app.get('/analyse')
+def analyse():
+    return {'analysis': Analys)
